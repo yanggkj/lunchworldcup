@@ -193,6 +193,7 @@ else:
 
     st.divider()
     st.button("다시 시작", on_click=new_game, key="restart_mid")
+# main.py에 이어 붙일 부분 — 학급의 대결 기록을 분석한다
 import pandas as pd
 import plotly.express as px
 
